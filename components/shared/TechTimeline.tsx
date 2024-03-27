@@ -37,6 +37,10 @@ const TechTimeline = () => {
         offsetX: 50,
       },
     },
+    theme: {
+      mode: "dark",
+      palette: "palette1",
+    },
   };
 
   return (
