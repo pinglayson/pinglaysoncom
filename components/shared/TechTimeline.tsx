@@ -1,12 +1,12 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useState } from "react";
 const ApexChart = dynamic(() => import("react-apexcharts"), { ssr: false });
 import { techTimelineSeries } from "@/constants";
+import { ApexOptions } from "apexcharts";
 
 const TechTimeline = () => {
-  const options = {
+  const options: ApexOptions = {
     chart: {
       height: 450,
     },
