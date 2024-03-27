@@ -273,4 +273,4 @@ export const qualifications = [
 
 export const location = "Sydney";
 export const linkedin = "https://www.linkedin.com/in/laysonping";
-export const github = "https://github.com/pinglayson/imaginify";
+export const github = "https://github.com/pinglayson/pinglaysoncom";
