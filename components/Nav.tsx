@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
-import { UserButton } from "@clerk/nextjs";
+import { UserButton, SignedIn } from "@clerk/nextjs";
 
 export default function Nav() {
   return (
@@ -15,11 +15,13 @@ export default function Nav() {
             width={208}
           />
         </Link>
-        <span className="flex">
-          <Link href="/tech-timeline" className="text-2xl text-center px-2">
+        <span className="flex gap-2">
+          <Link href="/tech-timeline" className="text-2xl text-center">
             TechTimeline
           </Link>
-          <UserButton />
+          <SignedIn>
+            <UserButton afterSignOutUrl="/" />
+          </SignedIn>
         </span>
       </div>
 
