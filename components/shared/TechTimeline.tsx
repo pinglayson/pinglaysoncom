@@ -9,6 +9,9 @@ const TechTimeline = () => {
   const options: ApexOptions = {
     chart: {
       height: 450,
+      zoom: {
+        enabled: false,
+      },
     },
     plotOptions: {
       bar: {
