@@ -63,15 +63,6 @@ export const techTimelineSeries = [
     ],
   },
   {
-    name: "Node.js",
-    data: [
-      {
-        x: "Programming",
-        y: [new Date("2023-12-01").getTime(), new Date().getTime()],
-      },
-    ],
-  },
-  {
     name: "Rails",
     data: [
       {
@@ -243,6 +234,15 @@ export const techTimelineSeries = [
       {
         x: "Front-end",
         y: [new Date("2016-06-01").getTime(), new Date().getTime()],
+      },
+    ],
+  },
+  {
+    name: "tailwindcss",
+    data: [
+      {
+        x: "Front-end",
+        y: [new Date("2024-01-01").getTime(), new Date().getTime()],
       },
     ],
   },
