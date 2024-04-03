@@ -1,10 +1,10 @@
 import User from "@/models/user.model";
-import dbConnect from "@/lib/mongoose";
+import { connectToDatabase } from "@/lib/mongoose";
 import { handleError } from "@/lib/utils";
 
 export async function createUser(user: CreateUserParams) {
   try {
-    await dbConnect();
+    await connectToDatabase();
 
     const newUser = await User.create(user);
 
