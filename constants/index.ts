@@ -271,6 +271,79 @@ export const qualifications = [
   },
 ];
 
+export const projects = [
+  {
+    title: "Finder",
+    img: "/portfolio/finder.png",
+    desc: "Full Stack | Martech",
+    url: "https://www.finder.com.au/",
+  },
+  {
+    title: "Finder App",
+    img: "/portfolio/finderApp.png",
+    desc: "React native, created crypto trading feature",
+    url: "https://www.finder.com.au/app",
+  },
+  {
+    title: "EdgeProp",
+    img: "/portfolio/edgeprop.png",
+    desc: "Migrated Drupal frontend on PHP to React.js",
+    url: "https://www.edgeprop.sg/",
+  },
+  {
+    title: "OCBC Affordability Calculator",
+    img: "/portfolio/ocbccalc.png",
+    desc: "Rushed project 1 week deadline. Collaboration with OCBC. Front-end done by me, OCBC provided api.",
+    url: "https://www.edgeprop.sg/ocbc_calculator",
+  },
+  {
+    title: "Club21 Global",
+    img: "/portfolio/club21.png",
+    desc: "One-man team providing tech support, maintenance and enhancement for the client.",
+    url: "https://sg.club21global.com/club21/",
+  },
+  {
+    title: "Olympus Singapore",
+    img: "/portfolio/olympus.jpg",
+    desc: "Created sales agent application for tracking sales. Together with api consumed by iPhone used by agents. Report generation using PHPExcel",
+    url: "",
+  },
+  {
+    title: "Metro",
+    img: "/portfolio/metro.png",
+    desc: "OpenCart Development. Paypal Security encryption.",
+    url: "https://www.metro.com.sg/",
+  },
+  {
+    title: "Zingrill",
+    img: "/portfolio/zingrill.png",
+    desc: "OpenCart Development. Paypal Security encryption.",
+    url: "http://www.zingrill.com.sg/zingrill/",
+  },
+  {
+    title: "HRsmart",
+    img: "/portfolio/hrsmart.jpeg",
+    desc: "Bug-fix and enhancement for legacy web application.",
+    url: "https://www.linkedin.com/company/hrsmart/",
+  },
+  {
+    title: "Caresharing",
+    img: "/portfolio/caresharing.png",
+    desc: "Fixed bugs and implemented new specification for web-based healthcare application",
+    url: "https://www.caresharing.com/",
+  },
+];
+
+export const navLinks = [
+  {
+    title: "TechTimeline",
+    url: "/tech-timeline",
+  },
+  {
+    title: "Portfolio",
+    url: "/portfolio",
+  },
+];
 export const location = "Sydney";
 export const linkedin = "https://www.linkedin.com/in/laysonping";
 export const github = "https://github.com/pinglayson/pinglaysoncom";

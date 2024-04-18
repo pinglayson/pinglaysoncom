@@ -10,7 +10,7 @@ export default function Home() {
             {qualification.title !== "" && (
               <h2 className="text font-bold">{qualification.title}:</h2>
             )}
-            <p className="font-mono">{qualification.desc}</p>
+            <p>{qualification.desc}</p>
           </div>
         ))}
       </div>

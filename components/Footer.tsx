@@ -5,10 +5,11 @@ import {
   LinkedInLogoIcon,
 } from "@radix-ui/react-icons";
 import { Separator } from "@/components/ui/separator";
+import GitHubIcon from "./shared/GitHubIcon";
 
 export default function Footer() {
   return (
-    <footer className="md:container px-4">
+    <footer className="md:container px-4 mt-4">
       <Separator />
       <div className="flex justify-between">
         <a href={linkedin} target="_blank">
@@ -20,9 +21,7 @@ export default function Footer() {
           <small>{location}</small>
         </span>
 
-        <a href={github} target="_blank">
-          <GitHubLogoIcon className="size-5 my-2" />
-        </a>
+        <GitHubIcon className="my-2" />
       </div>
     </footer>
   );

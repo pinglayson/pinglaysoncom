@@ -40,7 +40,7 @@ export default function RootLayout({
               <Nav />
             </header>
 
-            <main className="md:container px-4 min-h-[calc(100vh-84px)]">
+            <main className="md:container px-4 min-h-[calc(100vh-110px)]">
               {children}
             </main>
 
